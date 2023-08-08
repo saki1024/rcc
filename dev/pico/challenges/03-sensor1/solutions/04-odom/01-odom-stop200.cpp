@@ -27,7 +27,7 @@ int main()
 
         if(!gpio_get(RCC_PUSHBUTTON))
         {
-            MotorPower(&motors, 60, 60); //use something above the deadband
+            MotorPower(&motors, 6, 60); //use something above the deadband
         }
 
         if(left_count >= 200 && right_count >= 200){

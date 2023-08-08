@@ -32,7 +32,7 @@ int main()
 
         if(!gpio_get(RCC_PUSHBUTTON))
         {
-            MotorPower(&motors, 50, 0); //spins left wheel only
+            MotorPower(&motors, 200, 0); //spins left wheel only
         }
 
         if(left_count >= rot360deg){

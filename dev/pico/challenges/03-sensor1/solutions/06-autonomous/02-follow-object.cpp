@@ -38,10 +38,10 @@ int main()
             sleep_ms(100);
 
             if(distance < 200){
-                MotorPower(&motors, -60, -50); //go backwards
+                MotorPower(&motors, -50,-50); //go backwards
             }
             else{
-                MotorPower(&motors, 60, 50); //go forwards
+                MotorPower(&motors, 50, 50); //go forwards
             }
             //note: this is a little janky but it works lol
         }

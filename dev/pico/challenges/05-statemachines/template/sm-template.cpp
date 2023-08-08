@@ -2,9 +2,10 @@
 using namespace std;
 
 typedef enum{
-    //Use commas to separate words
-    EXAMPLE, 
-    //put rest here...
+     CHECK_VALUE,
+     FWD,
+     STOP,
+     REV
 } state_t;
 
 int main(){
@@ -16,16 +17,19 @@ int main(){
     //init robot's sensors and actuators here~~
 
     //rename state_name to something more informative
-    state_t state_name = EXAMPLE;
+    state_t state_name =CHECK_VALUE;
 
     while(true){
-        switch(state_name){
-            case EXAMPLE:
-                //do something in each state
-                //check transition conditions
-                break;
-
-            case //PUT REST HERE
-        }
+    	if(my_state==CHECK_VALUE)
+    	val=adc_read();
+    	if(val<2000){
+    	my_state=FWD;
+    	}
+    	
+    	if(my_state==FWD){
+    	cout<<"FWD\n";
+    	my_state=CHECK_VALUE;
+    	}
+        
     }
 }
