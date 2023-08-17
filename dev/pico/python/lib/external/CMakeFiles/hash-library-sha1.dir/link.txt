@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libhash-library-sha1.a CMakeFiles/hash-library-sha1.dir/hash-library/sha1.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libhash-library-sha1.a

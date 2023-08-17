@@ -1,0 +1,29 @@
+#include "rcc_stdlib.h"cp 
+using namespace std;
+
+int main(void)
+{
+    stdio_init_all();
+    rcc_init_pushbutton();
+   rotate_servo();
+
+    Servo s1;
+     
+        
+    if{rcc_init_pushbutton
+    rotate_servo
+    
+    
+    
+    
+    
+    
+    }
+
+
+
+
+      
+     ServoInit(&s1, 16, false, 50);
+     ServoOn(&s1);
+}

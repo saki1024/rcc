@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc librcc_stdlib.a 
+/usr/bin/arm-none-eabi-ranlib librcc_stdlib.a

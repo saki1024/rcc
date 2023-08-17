@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libserial-packets.a CMakeFiles/serial-packets.dir/packet.c++.obj CMakeFiles/serial-packets.dir/messages.c++.obj
+/usr/bin/arm-none-eabi-ranlib libserial-packets.a
