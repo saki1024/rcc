@@ -1,0 +1,15 @@
+// claw
+
+
+
+int main() {
+
+Servo s3;
+ServoInit(&s3, 18, false, 50);
+ServoOn(&s3)
+
+
+
+
+
+}
